@@ -16,6 +16,7 @@ RUN a2enmod headers
 RUN a2enmod proxy
 RUN a2enmod proxy_http
 RUN a2enmod proxy_wstunnel
+RUN a2enmod rewrite
 
 # Config
 RUN mkdir --parents /run/dbus
